@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorWyatt.APIApplication"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorWyatt.Keys", "ConnorWyatt.Keys\ConnorWyatt.Keys.csproj", "{A76C1532-C6CE-42B1-B95F-427205D79740}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorWyatt.SPAApplication", "ConnorWyatt.SPAApplication\ConnorWyatt.SPAApplication.csproj", "{7757F8A2-BB87-4C6D-AAED-9FC720D877E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{A76C1532-C6CE-42B1-B95F-427205D79740}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A76C1532-C6CE-42B1-B95F-427205D79740}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A76C1532-C6CE-42B1-B95F-427205D79740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7757F8A2-BB87-4C6D-AAED-9FC720D877E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7757F8A2-BB87-4C6D-AAED-9FC720D877E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7757F8A2-BB87-4C6D-AAED-9FC720D877E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7757F8A2-BB87-4C6D-AAED-9FC720D877E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
