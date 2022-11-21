@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorWyatt.AuthServer", "ConnorWyatt.AuthServer\ConnorWyatt.AuthServer.csproj", "{4384AE00-ED25-4486-B015-B8CCD0C8A018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorWyatt.APIApplication", "ConnorWyatt.APIApplication\ConnorWyatt.APIApplication.csproj", "{340C1404-28F6-40B5-BF25-DA64E5700B0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnorWyatt.Keys", "ConnorWyatt.Keys\ConnorWyatt.Keys.csproj", "{A76C1532-C6CE-42B1-B95F-427205D79740}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4384AE00-ED25-4486-B015-B8CCD0C8A018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4384AE00-ED25-4486-B015-B8CCD0C8A018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4384AE00-ED25-4486-B015-B8CCD0C8A018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4384AE00-ED25-4486-B015-B8CCD0C8A018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{340C1404-28F6-40B5-BF25-DA64E5700B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340C1404-28F6-40B5-BF25-DA64E5700B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340C1404-28F6-40B5-BF25-DA64E5700B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340C1404-28F6-40B5-BF25-DA64E5700B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A76C1532-C6CE-42B1-B95F-427205D79740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A76C1532-C6CE-42B1-B95F-427205D79740}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A76C1532-C6CE-42B1-B95F-427205D79740}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A76C1532-C6CE-42B1-B95F-427205D79740}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
