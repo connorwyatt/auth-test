@@ -9,10 +9,9 @@
 
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.SpaServices.Extensions" Version="6.0.11" />
+        <PackageReference Include="Microsoft.Identity.Web" Version="1.25.8" />
+        <PackageReference Include="NodaTime" Version="3.1.5" />
+        <PackageReference Include="NodaTime.Serialization.SystemTextJson" Version="1.0.0" />
     </ItemGroup>
     
-    <ItemGroup>
-        <ProjectReference Include="..\ConnorWyatt.Keys\ConnorWyatt.Keys.csproj" />
-    </ItemGroup>
-
 </Project>

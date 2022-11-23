@@ -1,0 +1,70 @@
+{
+  "extends": [
+    "react-app",
+    "standard-with-typescript",
+    "standard-jsx",
+    "standard-react",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:array-func/recommended",
+    "plugin:eslint-comments/recommended",
+    "plugin:optimize-regex/recommended",
+    "plugin:prettier/recommended",
+    "plugin:promise/recommended",
+    "plugin:sonarjs/recommended"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc"
+        }
+      }
+    ],
+    "import/no-default-export": "error",
+    "import/no-relative-parent-imports": "error",
+    "react/jsx-handler-names": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off",
+    "prettier/prettier": "error",
+    "@typescript-eslint/no-empty-function": ["error", { "allow": ["constructors"] }]
+  },
+  "overrides": [
+    {
+      "files": ["*.test.*"],
+      "rules": {
+        "sonarjs/no-duplicate-string": "off"
+      }
+    },
+    {
+      "files": ["*-styles.ts"],
+      "rules": {
+        "sonarjs/no-duplicate-string": "off"
+      }
+    },
+    {
+      "files": ["**/stories/**"],
+      "rules": {
+        "import/no-default-export": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off"
+      }
+    }
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
+    }
+  }
+}
